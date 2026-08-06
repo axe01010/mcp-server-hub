@@ -1,0 +1,10 @@
+{
+  "name": "fetch",
+  "description": "Fetch and convert any URL to markdown for content analysis",
+  "command": "uvx mcp-server-fetch",
+  "categories": ["web", "content"],
+  "env": [],
+  "installed": false,
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
+  "tags": ["web", "markdown"]
+}

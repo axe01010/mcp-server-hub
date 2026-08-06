@@ -1,0 +1,11 @@
+{
+  "name": "brave-search",
+  "description": "Web search via the Brave Search API — returns ranked results, summaries and ratings.",
+  "command": "npx -y @modelcontextprotocol/server-brave-search",
+  "categories": ["search", "web"],
+  "env": ["BRAVE_API_KEY"],
+  "installed": false,
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search",
+  "tags": ["web", "search", "api"],
+  "notes": "Requires a free Brave Search API key from the Brave Developer portal (brave.com/search/api)."
+}

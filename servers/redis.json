@@ -1,0 +1,11 @@
+{
+  "name": "redis",
+  "description": "Redis database operations — query, inspect keys, sets, hashes and pub/sub for in-memory data.",
+  "command": "uvx mcp-server-redis",
+  "categories": ["data", "cache"],
+  "env": ["REDIS_URL"],
+  "installed": false,
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/redis",
+  "tags": ["sql", "db", "cache"],
+  "notes": "Connect to a Redis instance (local or remote) with REDIS_URL, e.g. redis://localhost:6379."
+}

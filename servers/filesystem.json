@@ -1,0 +1,11 @@
+{
+  "name": "filesystem",
+  "description": "Sandboxed file access — read, write, list and search files on the host with path validation.",
+  "command": "npx -y @modelcontextprotocol/server-filesystem /tmp/mcp-files",
+  "categories": ["filesystem", "core"],
+  "env": [],
+  "installed": false,
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+  "tags": ["file", "io", "sandbox"],
+  "notes": "Pass the allowed directory as the final argument. Only paths under the allow-list are accessible, which is the intended sandbox."
+}

@@ -2,5 +2,9 @@
   "name": "github",
   "description": "GitHub repository management and code search",
   "command": "npx -y @modelcontextprotocol/server-github",
-  "categories": ["coding"]
+  "categories": ["coding", "git"],
+  "env": ["GITHUB_TOKEN"],
+  "installed": false,
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+  "notes": "Needs a GitHub PAT with repo + read:org scopes for full access."
 }

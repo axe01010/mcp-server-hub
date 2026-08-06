@@ -1,0 +1,6 @@
+{
+  "name": "github",
+  "description": "GitHub repository management and code search",
+  "command": "npx -y @modelcontextprotocol/server-github",
+  "categories": ["coding"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sequential-thinking",
+  "description": "Ordered, autonomous problem solving with explicit reasoning chains",
+  "command": "npx -y @modelcontextprotocol/server-sequential-thinking",
+  "categories": ["reasoning"],
+  "env": [],
+  "installed": false,
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+  "tags": ["reasoning", "chain-of-thought"]
+}

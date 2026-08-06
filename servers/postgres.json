@@ -1,0 +1,6 @@
+{
+  "name": "postgres",
+  "description": "PostgreSQL database inspection and queries",
+  "command": "npx -y @modelcontextprotocol/server-postgres",
+  "categories": ["data"]
+}

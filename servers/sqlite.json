@@ -1,0 +1,11 @@
+{
+  "name": "sqlite",
+  "description": "Inspect and query SQLite databases locally",
+  "command": "uvx mcp-server-sqlite",
+  "args": ["--db-path", "/path/to/app.db"],
+  "categories": ["data", "database"],
+  "env": [],
+  "installed": false,
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite",
+  "tags": ["sql", "db"]
+}

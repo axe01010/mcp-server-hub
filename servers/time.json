@@ -1,0 +1,10 @@
+{
+  "name": "time",
+  "description": "Time and timezone conversion for agents (UTC/local, DST-aware)",
+  "command": "uvx mcp-server-time",
+  "categories": ["utility"],
+  "env": [],
+  "installed": false,
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/time",
+  "tags": ["time"]
+}

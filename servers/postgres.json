@@ -2,5 +2,9 @@
   "name": "postgres",
   "description": "PostgreSQL database inspection and queries",
   "command": "npx -y @modelcontextprotocol/server-postgres",
-  "categories": ["data"]
+  "categories": ["data", "database"],
+  "env": ["DATABASE_URL"],
+  "installed": false,
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres",
+  "tags": ["sql", "db"]
 }

@@ -1,0 +1,11 @@
+{
+  "name": "memory",
+  "description": "Knowledge-graph memory for agents — store and recall structured facts, entities and relationships across sessions.",
+  "command": "npx -y @modelcontextprotocol/server-memory",
+  "categories": ["memory", "agent"],
+  "env": [],
+  "installed": false,
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
+  "tags": ["knowledge-graph", "persistence", "context"],
+  "notes": "Ideal for giving an agent durable memory without a database. Entities and relations are stored in a local knowledge-graph JSON file."
+}

@@ -1,0 +1,11 @@
+{
+  "name": "docker",
+  "description": "Container management — list, inspect, run and stop Docker containers, plus image operations.",
+  "command": "npx -y @modelcontextprotocol/server-docker",
+  "categories": ["devops", "containers"],
+  "env": ["DOCKER_HOST"],
+  "installed": false,
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/docker",
+  "tags": ["docker", "infra", "cli"],
+  "notes": "Wraps the Docker CLI. Requires a running Docker daemon reachable via DOCKER_HOST (or the default socket)."
+}

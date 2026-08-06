@@ -128,6 +128,20 @@ Add a server with one JSON file per
 
 MIT — see [LICENSE](LICENSE).
 
+
+## Architecture
+
+```mermaid
+flowchart LR
+    Agent[AI Agent] -- MCP stdio --> Hub[Server Hub]
+    Hub --> Protocol[Model Context Protocol]
+    Protocol --> GH[GitHub server]
+    Protocol --> PG[Postgres server]
+    Protocol --> PW[Playwright browser]
+    Protocol --> MORE[... more tools]
+```
+
+
 ---
 <p align="center">
   <b>Part of the <a href="https://github.com/axe01010/axe01010">Free On-Device AI DevKit</a> stack</b><br>

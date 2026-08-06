@@ -1,0 +1,11 @@
+{
+  "name": "context7",
+  "description": "Up-to-date library documentation for LLMs — fetch current API docs for any package or framework to reduce hallucinations.",
+  "command": "npx -y @upstash/context7-mcp",
+  "categories": ["documentation", "developer"],
+  "env": [],
+  "installed": false,
+  "source": "https://github.com/upstash/context7",
+  "tags": ["docs", "library", "llm"],
+  "notes": "Excellent companion for coding agents: pulls curated, version-pinned documentation for popular libraries at request time."
+}

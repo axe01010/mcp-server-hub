@@ -1,0 +1,6 @@
+{
+  "name": "playwright",
+  "description": "Browser automation and page interaction",
+  "command": "npx -y @modelcontextprotocol/server-playwright",
+  "categories": ["browsing"]
+}
